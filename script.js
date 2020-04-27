@@ -328,9 +328,6 @@ $('#submit').on('click', function(event) {
     generateLeaderboard();
 });
 
-
-
-
 function generateLeaderboard(){
 
     // Remove input form and score result heading
