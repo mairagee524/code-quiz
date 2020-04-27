@@ -253,26 +253,9 @@ function whatQuestionAreWeIn(){
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var scoreInput = document.getElementById("initial");
 var scoreForm = document.getElementById("input-initial");
 var scoreList = document.getElementById("scoreList");
-
-// Setting variable for combined score list ('initials + score' in one line)
 
 var highScores = [];
 
@@ -290,32 +273,27 @@ for (var i = 0; i < highScores.length; i++) {
 }};
   
 function init() {
-  // Get stored todos from localStorage
-  // Parsing the JSON string to an object
+ 
   storedScoreInitials = JSON.parse(localStorage.getItem("highScores"));
   console.log(storedScoreInitials);
 
 
-  // If todos were retrieved from localStorage, update the todos array to it
   if (storedScoreInitials !== null) {
     highScores = storedScoreInitials;
     console.log(highScores);
 
   }
 
-  // Render todos to the DOM
   renderScoreList();
 };
 
 function storeScoreList() {
-    // Stringify and set "todos" key in localStorage to todos array
     localStorage.setItem("highScores", JSON.stringify(highScores));
     console.log(localStorage.setItem("highScores", JSON.stringify(highScores)));
 };
 
 var letters = "abcdefghijklmnopqrstuvwxyz".split('');
 
-// What happens when user clicks the 'submit' button after inputting initials 
 $('#submit').on('click', function(event) {
 
     // Use preventdefault to not have submit button autmatically send to server
@@ -349,33 +327,6 @@ $('#submit').on('click', function(event) {
     // Generate function to display leaderboard
     generateLeaderboard();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
