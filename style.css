@@ -1,5 +1,40 @@
-#start-button, #submit {
+body {
+    background-color: rosybrown;
+}
+
+#score {
+    margin-left: 20px;
+}
+
+.time {
+    margin-right: 20px;
+}
+
+#score, .time {
+    margin-top: 20px;
+}
+
+.time {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+
+#start-button, #submit, . {
     padding: 10px;
     background-color: aqua;
     border-radius: 20px;
+}
+
+.quiz {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: hsl(206, 17%, 28%);
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 40px;
 }

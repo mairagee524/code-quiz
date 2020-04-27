@@ -10,35 +10,45 @@
     <title>Pop Culture Assessment</title>
 </head>
 <body>
-    <div class="Quiz">
-        <div class="header">
-            <div class="score">
-                <p>View High Scores </p>
+    <div class="header">
+        <div class="row">
+            <div class="col-md-3">
+                <button id="score">View High Scores</button>
             </div>
-            <div class="countdown">
-                <p>Time: <span id="countdown">5</span></p>
+            <div class="col-md-8"></div>
+            <div class="col-md-1">
+                <div class="time">
+                   <p>Time: <span id="countdown"></span></p>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="first-page">
-            <h1> Pop Culture Quiz</h1>
+    <div class="quiz">
+        <div id="first-page">
+            <h1 id=title> Old-School Pop Culture Quiz</h1>
             <button id="start-button">Start Quiz</button>
             <p id="question"></p>
             <div id="choice-buttons"></div>
             <footer>
-                <p>Question <span id="progress">0</span> of 20</p>
-            </footer?>
+                <p id="progress-bar">Question <span id="progress"></span> of 20</p>
+            </footer>
         </div>
    
-        <div class="finish">
-            <div id="final-score"></div>
-            <form>
-                <div id="input-initial">
-                  <label for="initial">Initials</label>
-                  <input type="text" name="initial" id="initial" placeholder="Initials"/>
-                  <button id="submit">Submit</button>
-                </div>
+    
+        <div id="final-page">
+            <form id="input-initial">
+                <label for="initial">Initials</label>
+                <input type="text" name="initial" id="initial" placeholder="Initials"/>
+                <button id="submit">Submit</button>
             </form>
+        </div>
+        <div id="leaderboard">
+            <ol id="scoreList"></ol>
+        </div>
+        <div id="end-buttons">
+            <button id="start-over">Start Over</button>
+            <button id="clear-leaderboard" onclick="window.localStorage.clear()">Clear Leaderboard</button>
         </div>
     </div>
 
