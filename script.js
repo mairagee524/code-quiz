@@ -27,8 +27,6 @@
 // ```
 
 // Quiz with questions, options, and answers
-
-
 var quiz = [{"index": 0, "question": "What are the building blocks of the web?",
 "choices": ["Ruby, Python, HTML", "JavaScript, jQuery, Bootstrap", "HTML, CSS, JavaScript", "Variables, C++, jQuery"],
 "answer": 2
@@ -40,7 +38,7 @@ var quiz = [{"index": 0, "question": "What are the building blocks of the web?",
 },
 
 {"index": 2, "question": "Who are the members in the band blink-182?",
-choices: ["Scott Raynor, Matt Skiba, Tom Delonge", "Steve Aiko, Nark Hoppus, Alex Gaskarth", "Goody Grace, Travis Barker, Lil Wayne", "Mark Hoppus, Matt Skiba, Travis Barker"],
+choices: ["Scott Raynor, Matt Skiba, Tom Delonge", "Steve Aiko, Mark Hoppus, Alex Gaskarth", "Goody Grace, Travis Barker, Lil Wayne", "Mark Hoppus, Matt Skiba, Travis Barker"],
 answer: 3
 },
 
@@ -54,84 +52,84 @@ choices: ["Barney Stinson", "Chandler Bing", "Dwight Schrute", "Jay Pritchett"],
 answer: 1
 },
 
-{"index": 5, "question": "sadfadfadasf",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
+{"index": 5, "question": "Where is the Eiffel Tower located?",
+choices: ["Paris, France", "Rome, Italy", "Amsterdam, the Netherlands", "Prague, Czech Republic"],
+answer: 0
+},
+
+{"index": 6, "question": "Emma Stone starred with Ryan Gosling in what movie?",
+choices: ["Superbad", "Easy A", "The Notebook", "La La Land"],
+answer: 3
+},
+
+{"index": 7, "question": "The Beatles consisted of 4 members - they are George Harrison, John Lennon, Ringo Starr and...",
+choices: ["Paul McCartney", "Axl Rose", "Elvis Presley", "Slash"],
+answer: 0
+},
+
+{"index": 8, "question": "Big Bird was one of the main characters in ...",
+choices: ["Caillou", "TeleTubbies", "Sesame Street", "Mr. Roger's Neighborhood"],
+answer: 2
+},
+
+{"index": 9, "question":  "What is the world's highest mountain",
+choices: ["Kilimanjaro", "K2", "Mount Everest", "Makalu"],
+answer: 2
+},
+
+{"index": 10, "question": "How do you create a new element with jQuery?",
+choices: ["$('#start').append(newButton)", "newElement.innerHTML = 'This is how you make a new element'", "var newDiv = document.createElement(div)", "var bElement = $('<button>')"],
+answer: 3
+},
+
+{"index": 11, "question": "'You're the One that I Want' is a famous duet by...",
+choices: ["Mariah Carey and Ne-Yo", "Olivia Newton-John and John Travolta", "Whitney Houston and Enrique Iglesias", "Nelly Furtado and Timbaland"],
 answer: 1
 },
 
-{"index": 6, "question": "fdasfkasfhjkasldfjhkasd",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
+{"index": 12, "question": "Which of the following are NOT part of the 7 new wonders of the world? ",
+choices: ["Machu Picchu", "Christ the Redeemer", "Great Pyramid of Giza,", "Taj Mahal"],
+answer: 2
+},
+
+{"index": 13, "question": "In the movie 'Avengers: Endgame', who did the ultimate sacrifice by putting on the guantlet and snapping his fingers?",
+choices: ["Hulk", "Iron Man", "Captain America", "Thor"],
 answer: 1
 },
 
-{"index": 7, "question": "sdfahajksdfjaklsdfbalksjdf",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
+{"index": 14, "question": "Eminem starred in the movie '8 mile' with a lead single named...",
+choices: ["Not Afraid", "Lose Yourself", "When I'm Gone", "Spend Some Time"],
 answer: 1
 },
 
-{"index": 8, "question": "sadhufalshfjaklsljdfkasdjk",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
+{"index": 15, "question": "What ocean lies in the east coast of the United States?",
+choices: ["Atlantic", "Eastern", "Indian", "Pacific"],
+answer: 0
 },
 
-{"index": 9, "question": "d",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
+{"index": 16, "question": "How do you execute a function?",
+choices: ["var runFunction = function", "function = x + y", "function = ['a'. 'b'. 'c']", "function()"],
+answer: 3
 },
 
-{"index": 10, "question": "w",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
+{"index": 17, "question": "Ed O' Neill and Sofia Vergara were part of what comedy show?",
+choices: ["New Girl", "How I Met Your Mother", "Modern Family", "Brooklyn 99"],
+answer: 2
 },
 
-{"index": 11, "question":  "e",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
+{"index": 18, "question": "What does API stands for?",
+choices: ["Application Programming Index", "AJAX Project Index", "Attributes Python Item", "Application Programming Interface"],
+answer: 3
 },
 
-{"index": 12, "question": "r",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
-},
-
-{"index": 13, "question": "r",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
-},
-
-{"index": 14, "question": "y",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
-},
-
-{"index": 15, "question": "u",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
-},
-
-{"index": 16, "question": "q",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
-},
-
-{"index": 17, "question": "i",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
-},
-
-{"index": 18, "question": "k",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
-},
-
-{"index": 19, "question": "m",
-choices: ["the structure of a webpage", "the styling of a webpage", "user interactivty in a webpage", "one of the programming languages"],
-answer: 1
+{"index": 19, "question": "Which of the following singers did NOT perform at a Superbowl half-time show?",
+choices: ["Taylor Swift", "Lady Gaga", "Shakira", "Katy Perry"],
+answer: 0
 }];
 
 // Setting number variables 
 var score = 0; 
-var timer = 15;
+var timer = 60;
 var progress = 1;
 var questionCounter = 0;
 
@@ -142,18 +140,16 @@ var returnToHomePage;
 var clearList;
 
 // Hiding items until prompted
-
 // Progress bar is hidden until the user presses the 'start' button
 $('#progress-bar').attr("style", "display:none");
 
 // Input form is hidden until the quiz is over
 $('#input-initial').attr("style", "display:none");
 
-// 'Start-Over' and "Clear-Leaderboard" buttons are hidden until the the user submits his/her score
+// Leaderboard Page is hidden until user submits initials
 $('#start-over').attr("style", "display:none");
 $('#clear-leaderboard').attr("style", "display:none");
-
-// Leaderboard is hidden also until submission of user initials
+$('#scoreTitle').attr("style", "display:none")
 $('#leaderboard').attr("style", "display:none");
 
 // Function after clicking the start-button
@@ -173,6 +169,7 @@ $("#start-button").on("click", function() {
           // ... a message will display...
           quizFinish = $('<h2>');
           quizFinish.text(`Thank you for completing the quiz. Your final score is ${score}.`);
+          quizFinish.attr("class", "finishquiz");
           $('#input-initial').prepend(quizFinish);
 
           // ...and the form to input your initials will pop up
@@ -204,7 +201,6 @@ $("#start-button").on("click", function() {
 
     // Show progress bar
     $('#progress-bar').attr("style", "display:block");
-
 });
 
 // Run this function to switch questions and answers  
@@ -218,6 +214,7 @@ function showQuestions(questionCounter) {
         choiceButton = $('<button>');
         choiceButton.val(i);
         choiceButton.text(quiz[questionCounter].choices[i]);
+        choiceButton.attr("class", "choicebutton");
         $('#choice-buttons').append(choiceButton);
     };
 };
@@ -232,10 +229,10 @@ $('#choice-buttons').on('click', 'button', function(){
         timer = timer - 5; 
     }
 
-    // index goes up
+    // Question index goes up
     questionCounter++;
 
-    // remove previous choice button group
+    // Remove previous choice button group
     $('#choice-buttons').children().remove();
 
     // Run the following functions on click while the timer is running
@@ -252,99 +249,88 @@ function whatQuestionAreWeIn(){
     progress++;
 };
 
-
+// Variables for maipulating data
 var scoreInput = document.getElementById("initial");
 var scoreForm = document.getElementById("input-initial");
 var scoreList = document.getElementById("scoreList");
 
+// Array of scores and letter initials from user
 var highScores = [];
 
-init();
+// Run this function to parse array data
+parseScores();
 
+// Create a new li for each score-initial combo
 function renderScoreList() {
 for (var i = 0; i < highScores.length; i++) {
     var oneScoreInitial = highScores[i];
-    console.log(oneScoreInitial);
-
     var li = $('<li>');
-    li.text(oneScoreInitial);
 
+    // Convert object to string
+    scoreInitialString = oneScoreInitial.initials + ' - ' + oneScoreInitial.score;
+
+    // Add text to li and add to scorelist board
+    li.text(scoreInitialString);
     $('#scoreList').append(li);
 }};
   
-function init() {
- 
+// Parse stored score and initials found in array
+function parseScores() {
   storedScoreInitials = JSON.parse(localStorage.getItem("highScores"));
-  console.log(storedScoreInitials);
 
-
+  // Update highScores array with scores and initials from localStorage
   if (storedScoreInitials !== null) {
     highScores = storedScoreInitials;
-    console.log(highScores);
-
-  }
-
-  renderScoreList();
+  };
 };
 
+// Set highScores array data 
 function storeScoreList() {
     localStorage.setItem("highScores", JSON.stringify(highScores));
-    console.log(localStorage.setItem("highScores", JSON.stringify(highScores)));
 };
 
-var letters = "abcdefghijklmnopqrstuvwxyz".split('');
-
+// What happens when user clicks on the 'submit' button?
 $('#submit').on('click', function(event) {
 
     // Use preventdefault to not have submit button autmatically send to server
     event.preventDefault();
 
-    // Create new heading
-    highScoreTitle = $('<h2>');
-    highScoreTitle.text("My High Scores");
-    $('#scoreList').prepend(highScoreTitle);
-
     // Combine user input and score
     submission = {};
-    console.log(submission);
     submission.initials = $('#initial')[0].value; 
-    console.log(submission.initials);
-   
     submission.score = score;
-    console.log(submission.score);
-
     
     // Return to function if user does not input anything
-    if (scoreInput === "") {
-        alert("Please type your initials in the corresponding boxes. Thank you!");
+    if ($('#initial')[0].value === "") {
+        alert("Please type your initials in the corresponding box. Thank you!");
         return;
-    }
+    };
 
     // Push combined result (initial + score) to array
     highScores.push(submission);
-    console.log(highScores);
 
     // Generate function to display leaderboard
     generateLeaderboard();
 });
 
+// Create a scorebard
 function generateLeaderboard(){
 
     // Remove input form and score result heading
     $('#final-page').remove();
-    
 
     // Hide main title, 'start' button, and progress bar
     $('#first-page').attr("style", "display:none");
 
-    // Run functions to publish comnbined result to leaderboard
+    // Run functions to publish overall result to leaderboard
     renderScoreList();
     storeScoreList();
 
-    // 'Start-Over' and "Clear-Leaderboard" buttons in view, along with leaderboard
-    $('#start-over').attr("style", "display:block");        
-    $('#clear-leaderboard').attr("style", "display:block");
+    // 'Start-Over' and "Clear-Leaderboard" buttons in view, along with scoreboard and title 
+    $('#start-over').attr("style", "display:inline");        
+    $('#clear-leaderboard').attr("style", "display:inline");
     $('#leaderboard').attr("style", "display:block");
+    $('#scoreTitle').attr("style", "display:block")
 };
 
 // If user clicks on "View High Scores" Leaderboard at the start of the page
@@ -352,11 +338,6 @@ $('#score').on('click', function(e) {
 
     // Use preventdefault to not have submit button autmatically send to server
     e.preventDefault();
-
-    // Create new heading
-    highScoreTitle = $('<h2>');
-    highScoreTitle.text("My High Scores");
-    $('#scoreList').prepend(highScoreTitle);
   
     // Generate function to display leaderboard
     generateLeaderboard();
@@ -367,11 +348,8 @@ $('#score').on('click', function(e) {
     return true;
 });
 
-// Alerts for both buttons in the Leaderboard Page
-$('#start-over').on('click', function() {
-    alert("Please refresh your browser to start the quiz again. Thank you!");
-});
-
+// Clear Leaderboard
 $('#clear-leaderboard').on('click', function() {
-    alert("Make sure to either refresh your browser or close this tab so that you can clear your leaderboard!");
+    window.localStorage.clear();
+    $('#scoreList').children().remove()
 });
