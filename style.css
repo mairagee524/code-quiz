@@ -6,6 +6,12 @@ body {
     margin-left: 40px;
 }
 
+#score:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 135, 124);
+    border-color: rgb(255, 135, 124);
+}
+
 .time {
     margin-right: 20px;
     text-align: center;
@@ -59,6 +65,7 @@ body {
 #start-button:hover, #submit:hover {
     transform: scale(1.1);
     background-color: #ad4566;
+    border-color: #ad4566;
 }
 
 h1, h2 {
@@ -92,6 +99,7 @@ h1, h2 {
 .choicebutton:hover {
     transform: scale(1.1);
     background-color: rgb(190, 130, 108);
+    border-color: rgb(190, 130, 108);
 }
 
 .finishquiz {
@@ -140,7 +148,8 @@ h1, h2 {
 }
 
 #score:disabled {
-    background-color: rgb(255, 135, 124);
-    border-color: rgb(255, 135, 124);
-    border-radius: rgb(190, 130, 108);
+    background-color: rgb(148, 92, 87);
+    border-color: rgb(148, 92, 87);
+    transform: none;
 }
+
