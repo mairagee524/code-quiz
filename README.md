@@ -21,3 +21,5 @@ When the user finishes answering all the questions, or when the timer goes down 
 ## Score Board
 
 After, the user is taken to another page where he/she/they are able to view the scores he/she/they earned in the quiz. In that page, the user is able to either click the `start over` button to take the quiz, or the `clear leaderboard` button to clear all the scores saved. 
+
+The deployed site for this project is: https://mairagee524.github.io/code-quiz/.
